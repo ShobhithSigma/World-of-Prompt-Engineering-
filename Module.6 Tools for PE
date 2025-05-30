@@ -1,0 +1,10 @@
+# Tools and Platforms for Prompt Engineering
+
+- **OpenAI Playground:** Interactive prompt testing.  
+- **LangChain:** Framework for building prompt-based apps.  
+- **PromptLayer:** Prompt monitoring and management.  
+- **AI Dungeon:** Creative roleplay prompt platform.  
+- **Cohere:** Alternative LLM provider with prompt APIs.  
+- **Hugging Face:** Models and prompt tuning.
+
+(Add your favorites or new ones as they emerge)
