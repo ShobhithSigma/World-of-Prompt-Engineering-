@@ -1,0 +1,15 @@
+# Best Practices in Prompt Engineering
+
+- Be clear and explicit in your instructions.  
+- Use examples for complex tasks.  
+- Break down multi-step tasks (scaffold).  
+- Use delimiters to avoid ambiguity.  
+- Iterate and test prompts regularly.  
+- Avoid leading the AI to biased answers.  
+- Combine Chain-of-Thought for reasoning tasks.  
+- Use roleplay to set tone and style.  
+- Prefer structured output for API integration.
+
+---
+
+Keep learning and experimenting!
