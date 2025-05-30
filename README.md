@@ -71,15 +71,18 @@ Courses
 1. ChatGPT Prompt Engineering for Developers, by [deeplearning.ai](https://www.deeplearning.ai/)
 2. Prompt Engineering for Vision Models by [DeepLearning.AI](https://www.deeplearning.ai/)
 
-----
-Videos
+----## 🎥 Prompt Engineering Video Resources
 
- Advanced ChatGPT Prompt Engineering   https://www.youtube.com/watch?v=bBiTR_1sEmI
- ChatGPT: 5 Prompt Engineering Secrets For Beginners https://www.youtube.com/watch?v=2zg3V66-Fzs
- CMU Advanced NLP 2022: Prompting  https://youtube.com/watch?v=5ef83Wljm-M&feature=shares
- Language Models and Prompt Engineering: https://youtube.com/watch?v=OsbUfL8w-mo&feature=shares
- Prompt Engineering 101: Autocomplete, Zero-shot, 
- One-shot, and Few-shot prompting https://youtube.com/watch?v=v2gD8BHOaX4&feature=shares
+Here are some great videos to help you learn and master Prompt Engineering:
+
+| 🎬 Title                                                                                                     | 🔗 Link |
+|-------------------------------------------------------------------------------------------------------------|---------|
+| **Advanced ChatGPT Prompt Engineering**                                                                     | [Watch on YouTube](https://www.youtube.com/watch?v=bBiTR_1sEmI) |
+| **ChatGPT: 5 Prompt Engineering Secrets For Beginners**                                                     | [Watch on YouTube](https://www.youtube.com/watch?v=2zg3V66-Fzs) |
+| **CMU Advanced NLP 2022: Prompting**                                                                         | [Watch on YouTube](https://www.youtube.com/watch?v=5ef83Wljm-M&feature=shares) |
+| **Language Models and Prompt Engineering**                                                                  | [Watch on YouTube](https://www.youtube.com/watch?v=OsbUfL8w-mo&feature=shares) |
+| **Prompt Engineering 101: Autocomplete, Zero-shot, One-shot, and Few-shot Prompting**                       | [Watch on YouTube](https://www.youtube.com/watch?v=v2gD8BHOaX4&feature=shares) |
+
 
 ## Stay Connected
 
