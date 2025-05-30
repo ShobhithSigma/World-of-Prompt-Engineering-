@@ -28,74 +28,40 @@ Welcome to the **Prompt Engineering Guide** — your go-to resource to learn how
 - 📂 **Ready-to-use Examples**  
 
 ---
-Apis
+## 🔌 APIs
 
-Name	                             Description	                        Url	                     Paid or Open-Source
+| Name       | Description                                                                                                 | URL        | Type         |
+|------------|-------------------------------------------------------------------------------------------------------------|------------|--------------|
+| **OpenAI** | GPT models for language tasks, Codex for code generation, and DALL·E for image creation and editing         | [OpenAI](https://openai.com) | Paid         |
+| **CohereAI** | Advanced Large Language Models and NLP tools through a single API                                          | [CohereAI](https://cohere.ai) | Paid         |
 
-OpenAI	      GPT-n for natural language tasks, Codex for             
-              translates natural language to code,                    [OpenAI]                      Paid
-              and DALL·E for creates and edits original images   
+---
 
-CohereAI	    Cohere provides access to advanced Large Language       [CohereAI]	                  Paid
-              Models and NLP tools through one API
+## 🛠️ Tools & Code
 
------
-
-Tools & Code
-
-Name	                                    Description	                                                          Url
-
-LlamaIndex	         LlamaIndex is a project consisting of a set of data structures designed to make           [Github]
-                     it easier to use large external knowledge bases with LLMs.	
-
-Promptify	           Solve NLP Problems with LLM's & Easily generate different NLP Task prompts                [Github]
-                     for popular generative models like GPT, PaLM, and more with Promptify	
-
-Arize-Phoenix        Open-source tool for ML observability that runs in your notebook environment.             [Github]
-                     Monitor and fine tune LLM, CV and Tabular Models.	
-
-Better Prompt	       Test suite for LLM prompts before pushing them to PROD                                    [Github]
-
-CometLLM	           Log, visualize, and evaluate your LLM prompts, prompt templates, 
-                     prompt variables, metadata, and more.	                                                   [Github]
-
-Embedchain	         Framework to create ChatGPT like bots over your dataset	                                 [Github]
-
-Interactive 
-Composition          ICE is a Python library and trace visualizer for language model programs.	               [Github]
-Explorerx
-                 
-Haystack	           Open source NLP framework to interact with your data using LLMs and Transformers.	       [Github]
-
-LangChainx	         Building applications with LLMs through composability	                                   [Github]
-
-OpenPrompt	         An Open-Source Framework for Prompt-learning	                                             [Github]
-
-Prompt Engine	       This repo contains an NPM utility library for creating and maintaining prompts 
-                     for Large Language Models (LLMs).	                                                       [Github]
-
-PromptInject	       PromptInject is a framework that assembles prompts in a modular fashion to 
-                     provide a quantitative analysis of the robustness of LLMs to adversarial prompt attacks.	 [Github]
-
-Prompts AI	         Advanced playground for GPT-3	                                                           [Github]
-
-Prompt Source	       PromptSource is a toolkit for creating, sharing and using natural language prompts.	     [Github]
-
-ThoughtSource	       A framework for the science of machine thinking	                                         [Github]
-
-PROMPTMETHEUS	       One-shot Prompt Engineering Toolkit	                                                     [Tool]
-
-AI Config	           An Open-Source configuration based framework for building applications with LLMs	         [Github]
-
-LastMile AI	         Notebook-like playground for interacting with LLMs across different 
-                     modalities (text, speech, audio, image)	                                                 [Tool]
-
-XpulsAI	             Effortlessly build scalable AI Apps. AutoOps platform for AI & ML	                       [Tool]
-
-Agenta	             Agenta is an open-source LLM developer platform with the tools for prompt management, 
-                     evaluation, human feedback, and deployment all in one place.	                             [Github]
-
-Promptotype	         Develop, test, and monitor your LLM { structured } tasks	                                 [Tool]
+| Name              | Description                                                                                                  | URL |
+|-------------------|--------------------------------------------------------------------------------------------------------------|-----|
+| **LlamaIndex**     | Data structures to integrate external knowledge bases with LLMs                                               | [GitHub](https://github.com/jerryjliu/llama_index) |
+| **Promptify**      | Easily generate NLP task prompts for generative models like GPT, PaLM, etc.                                  | [GitHub](https://github.com/promptslab/Promptify) |
+| **Arize-Phoenix**  | ML observability tool for tuning LLMs, CV, and tabular models                                                 | [GitHub](https://github.com/Arize-ai/phoenix) |
+| **Better Prompt**  | Test suite for LLM prompts before production deployment                                                       | [GitHub](https://github.com/promptslab/betterprompt) |
+| **CometLLM**       | Log, visualize, and evaluate prompts and metadata for LLMs                                                    | [GitHub](https://github.com/comet-ml/comet-llm) |
+| **Embedchain**     | Framework to create ChatGPT-like bots over your datasets                                                      | [GitHub](https://github.com/embedchain/embedchain) |
+| **ICE (Explorerx)**| Interactive Composition Explorer and visualizer for LM programs                                                | [GitHub](https://github.com/ExplorerX/ice) |
+| **Haystack**       | NLP framework to query and interact with data using LLMs                                                      | [GitHub](https://github.com/deepset-ai/haystack) |
+| **LangChainx**     | Build LLM apps through modular composition                                                                    | [GitHub](https://github.com/hwchase17/langchain) |
+| **OpenPrompt**     | Open-source prompt-learning framework                                                                          | [GitHub](https://github.com/thunlp/OpenPrompt) |
+| **Prompt Engine**  | NPM utility for creating and managing LLM prompts                                                              | [GitHub](https://github.com/dabit3/prompt-engine) |
+| **PromptInject**   | Framework for modular prompt building and robustness testing                                                  | [GitHub](https://github.com/nec-research/promptinject) |
+| **Prompts AI**     | Advanced prompt playground for GPT-3                                                                          | [GitHub](https://github.com/prompts-ai/prompts-ai) |
+| **Prompt Source**  | Toolkit for creating and sharing language prompts                                                             | [GitHub](https://github.com/bigscience-workshop/promptsource) |
+| **ThoughtSource**  | Framework for machine thinking and reasoning                                                                  | [GitHub](https://github.com/OpenBioLink/ThoughtSource) |
+| **PROMPTMETHEUS**  | One-shot prompt engineering toolkit                                                                           | [Tool](https://promptmetheus.com) |
+| **AI Config**      | Configuration-based framework for building LLM applications                                                  | [GitHub](https://github.com/riccardo-rostagno/aiconfig) |
+| **LastMile AI**    | Playground for interacting with LLMs across text, audio, and image                                            | [Tool](https://www.lastmileai.dev) |
+| **XpulsAI**        | Platform to build scalable AI apps with AutoOps features                                                     | [Tool](https://xpuls.ai) |
+| **Agenta**         | Full-featured LLM developer platform with prompt management and feedback loops                               | [GitHub](https://github.com/agenta-ai/agenta) |
+| **Promptotype**    | Tool to develop, test, and monitor structured LLM tasks                                                      | [Tool](https://promptotype.ai) |
 
 ----
 
