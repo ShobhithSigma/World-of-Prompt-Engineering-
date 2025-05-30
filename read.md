@@ -97,6 +97,14 @@ Agenta	             Agenta is an open-source LLM developer platform with the too
 
 Promptotype	         Develop, test, and monitor your LLM { structured } tasks	                                 [Tool]
 
+----
+
+Courses
+👩‍🏫
+
+1. ChatGPT Prompt Engineering for Developers, by deeplearning.ai
+2. Prompt Engineering for Vision Models by DeepLearning.AI
+----
 
 ## Stay Connected
 
