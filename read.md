@@ -29,13 +29,6 @@ Welcome to the **Prompt Engineering Guide** — your go-to resource to learn how
 
 ---
 
-## Quick Start
-
-1. Open [`DEFINITION.md`](DEFINITION.md) to get the basics.  
-2. Explore [`TYPES.md`](TYPES.md) to see different prompt styles.  
-3. Check out [`EXAMPLES/`](EXAMPLES/) folder for real prompts you can try.  
-4. Read [`BEST_PRACTICES.md`](BEST_PRACTICES.md) for tips on writing better prompts.
-
 
 ## Stay Connected
 
