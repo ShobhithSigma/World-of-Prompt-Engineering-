@@ -1,0 +1,117 @@
+# 📌 Prompt Engineering: The Complete Guide
+
+Welcome to the **Prompt Engineering** GitHub repository! 
+This project aims to provide a structured, practical, and insightful approach to understanding and mastering prompt engineering for large language models (LLMs) like GPT-4.
+
+---
+
+## 🧠 1. Definition
+
+**Prompt Engineering** is the art and science of designing effective inputs (prompts) to communicate with LLMs. 
+  It helps control the behavior and output of AI models by carefully crafting what is asked and how.
+
+---
+
+## 🧩 2. Types of Prompt Engineering
+
+### 🔹 a. Zero-shot Prompting
+Ask a question without examples.
+```text
+"Translate this sentence to French: 'How are you?'"
+```
+
+### 🔹 b. One-shot Prompting
+Provide a single example.
+```text
+"English: Hello → French: Bonjour
+English: Good night → French:"
+```
+
+### 🔹 c. Few-shot Prompting
+Provide multiple examples to establish a pattern.
+```text
+Q: What's the capital of France? A: Paris
+Q: What's the capital of Germany? A: Berlin
+Q: What's the capital of Italy? A:
+```
+
+### 🔹 d. Chain-of-Thought (CoT) Prompting
+Encourage step-by-step reasoning.
+```text
+"If a train travels 60 miles in 1 hour and 90 miles in 1.5 hours, what's the average speed? Let's think step by step."
+```
+
+### 🔹 e. Instruction-based Prompting
+Use direct instructions to set the tone or format.
+```text
+"You are an expert tutor. Explain the concept of gravity in simple terms."
+```
+
+### 🔹 f. Roleplay Prompting
+Assign roles to guide AI behavior.
+```text
+"You are a friendly software engineer mentoring a junior developer."
+```
+
+### 🔹 g. ReAct Prompting (Reason + Act)
+Used for agent models that both reason and interact with tools.
+```text
+"Question: What is the capital of Canada?
+Thought: I need to look up a list of countries and their capitals.
+Action: search[Canada capital]"
+```
+
+### 🔹 h. Multi-turn Prompting
+Designing prompts that span multiple back-and-forth exchanges.
+```text
+User: Tell me about photosynthesis.
+Assistant: Photosynthesis is...
+User: Explain it like I'm 5.
+```
+
+### 🔹 i. Contextual Prompting
+Injecting prior information to guide the model.
+```text
+"Given that Alice is Bob's sister, who is Bob to Alice?"
+```
+
+### 🔹 j. Contrastive Prompting
+Show contrasting examples to clarify the task.
+```text
+"Good answer: Clear, concise, helpful
+Bad answer: Vague, confusing, irrelevant
+Now write a good answer for: 'What is AI?'"
+```
+
+### 🔹 k. Iterative Refinement Prompting
+Improving outputs by refeeding and refining them.
+```text
+"Revise this paragraph to make it more persuasive."
+```
+
+### 🔹 l. Self-Consistency Prompting
+Asking the model multiple times and aggregating the results.
+```text
+"Answer this math problem five times and choose the most common answer."
+```
+
+### 🔹 m. Meta Prompting
+Ask the model to generate or evaluate prompts.
+```text
+"Create a prompt that summarizes legal contracts in plain English."
+```
+
+### 🔹 n. Retrieval-Augmented Prompting
+Use external knowledge from documents or databases.
+```text
+"Based on the contents of document A, summarize the benefits of product X."
+```
+
+### 🔹 o. Tree-of-Thought Prompting
+Branching reasoning paths to improve decision making.
+```text
+"Consider three different solutions to this puzzle and compare them."
+```
+
+---
+
