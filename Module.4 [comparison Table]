@@ -1,0 +1,24 @@
+🧮 Prompt Engineering Techniques – Comparison Table
+
+| #  | Prompt Type            | Goal/Purpose                              | Complexity | Output Control | Common Use Case                               |
+| -- | ---------------------- | ----------------------------------------- | ---------- | -------------- | --------------------------------------------- |
+| 1  | Zero-shot              | Direct task without examples              | Low        | Low            | Simple queries, classification                |
+| 2  | One-shot               | Show single example to guide output       | Low        | Medium         | Translation, pattern following                |
+| 3  | Few-shot               | Show multiple examples                    | Medium     | High           | Code gen, Q\&A, text completion               |
+| 4  | Chain-of-Thought (CoT) | Induce reasoning steps                    | Medium     | High           | Math, logic, problem solving                  |
+| 5  | Instruction-based      | Explicit command to perform a task        | Low        | Medium         | Text gen, summaries, explanations             |
+| 6  | Roleplay               | Assign personality or role                | Medium     | High           | Chatbots, educational bots                    |
+| 7  | ReAct                  | Combine reasoning with action             | High       | Very High      | Tool-using agents, search + gen tasks         |
+| 8  | Self-Consistency       | Improve reliability via repetition        | High       | Very High      | Logic-heavy tasks, fact-based answers         |
+| 9  | Contextual             | Add real context to guide answer          | Medium     | Medium         | Recommendations, personalization              |
+| 10 | Contrastive            | Compare two or more things                | Low        | Medium         | Product comparisons, analysis                 |
+| 11 | Multi-turn             | Ongoing dialogue for clarity              | Medium     | High           | Support bots, knowledge drilling              |
+| 12 | Prompt Chaining        | Sequential task decomposition             | High       | Very High      | Multi-step workflows, summarization pipelines |
+| 13 | Delimiting             | Clearly isolate prompt from context       | Low        | Medium         | Long inputs, precision prompts                |
+| 14 | Few-shot CoT           | Combine examples with step-wise reasoning | High       | Very High      | Complex reasoning + language generation       |
+| 15 | In-Context Learning    | Teach model by examples within the prompt | Medium     | High           | Classification, extraction, text structuring  |
+| 16 | Scaffolded             | Break task into modular sub-prompts       | High       | Very High      | Essay writing, documentation, workflows       |
+| 17 | Persona                | Guide tone/style of the model             | Medium     | High           | Custom agents, brand voice chatbots           |
+| 18 | Critique & Refine      | Ask model to review/edit its own response | High       | High           | Writing assistants, review bots               |
+| 19 | Embedding-based        | Retrieve contextual data via vectors      | Very High  | Very High      | RAG pipelines, document Q\&A                  |
+| 20 | Format-specific        | Output structured responses               | Low        | Very High      | APIs, integration with other systems          |
