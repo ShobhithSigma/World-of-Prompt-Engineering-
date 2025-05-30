@@ -1,0 +1,129 @@
+🧩 20 Types of Prompt Engineering
+
+1. Zero-shot Prompting
+Description: Asking the model to perform a task with no prior examples.
+
+Example:
+"Translate the sentence 'Good morning' into French."
+
+2. One-shot Prompting
+Description: Providing one example to guide the model.
+
+Example:
+"English: Hello → French: Bonjour.
+English: Thank you →"
+
+3. Few-shot Prompting
+Description: Supplying a few examples to set a pattern.
+
+Example:
+"Q: 2 + 2 = ? A: 4
+Q: 3 + 5 = ? A:"
+
+4. Chain-of-Thought (CoT) Prompting
+Description: Encouraging the model to reason step by step.
+
+Example:
+"Is 945 divisible by 3? Let's think step by step."
+
+5. Instruction-based Prompting
+Description: Explicitly instructing the model to perform a task.
+
+Example:
+"Explain photosynthesis in simple language suitable for a 6th grader."
+
+6. Roleplay Prompting
+Description: Assigning a specific role or persona to the model.
+
+Example:
+"Act like a career counselor and suggest jobs for someone interested in art and tech."
+
+7. ReAct Prompting (Reason + Act)
+Description: Combine reasoning with actionable commands, often for agents.
+
+Example:
+"Thought: I need to look up current stock prices.
+Action: search[Apple stock price]"
+
+8. Self-Consistency Prompting
+Description: Asking the model multiple times and picking the most consistent or frequent response.
+
+Usage: For more accurate answers in mathematical or reasoning tasks.
+
+9. Contextual Prompting
+Description: Including relevant context from earlier parts of a conversation or document.
+
+Example:
+"Based on the user's previous purchase history, recommend 3 new books."
+
+10. Contrastive Prompting
+Description: Asking the model to compare and contrast.
+
+Example:
+"Compare React and Angular in terms of performance, scalability, and learning curve."
+
+11. Multi-turn Prompting
+Description: Using dialogue-style back-and-forth interaction to build understanding.
+
+Example:
+User: What's a neural network?
+Model: It's a system...
+User: Can you give a real-world example?"
+
+12. Prompt Chaining
+Description: Feeding the output of one prompt into the next.
+
+Example:
+Prompt 1: Summarize the article. → Prompt 2: Turn the summary into a tweet.
+
+13. Delimiting Prompting
+Description: Using delimiters (like triple quotes or tags) to clearly define the input.
+
+Example:
+"Summarize the following text: The sun is the star..."
+
+14. Few-shot CoT Prompting
+Description: Combining few-shot examples with reasoning steps.
+
+Example:
+Q: If Jack has 5 apples and eats 2, how many remain? A: Let's think step by step...
+
+15. In-Context Learning Prompting
+Description: Embedding labeled examples in the prompt to guide generation.
+
+Usage: Classification, sentiment analysis, entity extraction, etc.
+
+16. Scaffolded Prompting
+Description: Breaking a complex task into multiple simpler sub-prompts.
+
+Example:
+
+Extract key points.
+
+Generate a summary from key points.
+
+Rephrase summary as a tweet.
+
+17. Persona Prompting
+Description: Defining the model's tone, behavior, and personality.
+
+Example:
+"You are an optimistic life coach. Always motivate the user with kindness."
+
+18. Critique & Refine Prompting
+Description: Asking the model to critique or improve its previous response.
+
+Example:
+"Rewrite your last answer to be more concise and persuasive."
+
+19. Embedding-based Prompting
+Description: Using vector similarity (retrieved context) to influence prompt design.
+
+Usage: RAG (Retrieval-Augmented Generation) setups.
+
+20. Format-specific Prompting
+Description: Asking for structured output in a specific format (JSON, YAML, CSV).
+
+Example:
+"Return the top 5 programming languages in JSON format with name and popularity score."
+
